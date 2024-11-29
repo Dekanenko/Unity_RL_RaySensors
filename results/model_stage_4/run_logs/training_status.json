@@ -1,0 +1,38 @@
+{
+    "AgentBehavior": {
+        "checkpoints": [
+            {
+                "steps": 499981,
+                "file_path": "results/model_stage_4/AgentBehavior/AgentBehavior-499981.onnx",
+                "reward": null,
+                "creation_time": 1732210485.194719,
+                "auxillary_file_paths": [
+                    "results/model_stage_4/AgentBehavior/AgentBehavior-499981.pt"
+                ]
+            },
+            {
+                "steps": 700004,
+                "file_path": "results/model_stage_4/AgentBehavior/AgentBehavior-700004.onnx",
+                "reward": 417.8882690668106,
+                "creation_time": 1732211162.439552,
+                "auxillary_file_paths": [
+                    "results/model_stage_4/AgentBehavior/AgentBehavior-700004.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 700004,
+            "file_path": "results/model_stage_4/AgentBehavior.onnx",
+            "reward": 417.8882690668106,
+            "creation_time": 1732211162.439552,
+            "auxillary_file_paths": [
+                "results/model_stage_4/AgentBehavior/AgentBehavior-700004.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0"
+    }
+}
